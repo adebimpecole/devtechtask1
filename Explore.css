@@ -1,0 +1,88 @@
+.explore{
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.exhd{
+    font-size: 2rem;
+    padding: 5% 0 2% 0;
+}
+.exinfo{
+    width: 60%;
+    text-align: center;
+}
+.exbtn{
+    border: 3px solid black;
+    padding: .5% 5%;
+    margin-top: 5%;
+    font-weight: 500;
+}
+.exbtn:hover{
+    color: white;
+    background-color: black;
+}
+.pic{
+    background-image: url("./assets/pwr.webp");
+    height: 50rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1097px){
+    .pic{
+        height: 40rem;
+    }
+    .explore{
+        height: 50rem;
+    }
+ }
+ @media only screen and (max-width: 943px){
+    .exhd{
+        font-size: 1.8rem;
+    }
+    .exinfo{
+        font-size: .9rem;
+    }
+    .exbtn{
+        font-size: .9rem;
+        padding: 1% 5%;
+    }
+    .pic{
+        height: 30rem;
+    }
+    .explore{
+        height: 40rem;
+    }
+  }
+  @media only screen and (max-width: 568px){
+    .exhd{
+        font-size: 1.5rem;
+    }
+    .exinfo{
+        font-size: .8rem;
+    }
+    .exbtn{
+        font-size: .8rem;
+    }
+    .pic{
+        height: 20rem;
+    }
+    .explore{
+        height: 30rem;
+    }
+  }
+  @media only screen and (max-width: 376px){
+    .exinfo{
+        width: 80%;
+    }
+    .pic{
+        height: 13rem;
+    }
+    .explore{
+        height: 25rem;
+    }
+  }

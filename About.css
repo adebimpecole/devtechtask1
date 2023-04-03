@@ -1,0 +1,113 @@
+.about{
+    background-image: url("./assets/pnt.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abouthd{
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 5% 0 2% 0;
+}
+.aboutinfo{
+    width: 60%;
+    text-align: center;
+}
+.aboutdets{
+    padding-top: 25%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detssec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    font-size: 1.8rem;
+}
+.subhd{
+    font-size: .8rem;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+@media only screen and (max-width: 1097px){
+    .about{
+         height: 43rem;
+    } 
+    .aboutinfo{
+        width: 70%;
+    }
+ }
+  @media only screen and (max-width: 943px){
+    .abouthd{
+        font-size: 2.8rem;
+    }
+    .aboutinfo{
+        font-size: .9rem;
+    }
+    .about{
+        height: 38rem;
+   } 
+  }
+  @media only screen and (max-width: 768px){
+    .about{
+        height: 35rem;
+   } 
+   .aboutdets{
+        width: 40%;
+    }
+    .detssec{
+        gap: .3rem;
+    }
+    .icon{
+        font-size: 1.5rem;
+    }
+    .subhd{
+        font-size: .7rem;
+    }
+  }
+  @media only screen and (max-width: 568px){
+    .about{
+        height: 28rem;
+   } 
+   .abouthd{
+        font-size: 2.5rem;
+    }
+    .aboutinfo{
+        font-size: .8rem;
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 468px){
+    .aboutdets{
+        width: 50%;
+    }
+    .icon{
+        font-size: 1.3rem;
+    }
+    .subhd{
+        font-size: .6rem;
+    }
+  }
+  @media only screen and (max-width: 376px){
+    .aboutinfo{
+        width: 85%;
+    }
+    .abouthd{
+        font-size: 2.2rem;
+    }
+    .aboutdets{
+        width: 60%;
+    }
+    .about{
+        height: 26rem;
+   } 
+  }
+  

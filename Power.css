@@ -1,0 +1,153 @@
+.power{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    justify-content: center;
+}
+.pwrfrst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8rem;
+    padding-bottom: 5%;
+}
+.pwrhd{
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-right: 15%;
+}
+.picsec{
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.fynimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.psec2{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    padding-top: 8%;
+}
+.pwrsec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pwrsecinfo{
+    border-top: 2px solid rgba(255, 255, 255, 0.521);
+    padding: 2% 0;
+    width: 40%;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.521);
+}
+.sec2hd{
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-bottom: 2%;
+}
+.sec2dt{
+    font-size: .9rem;
+}
+
+.act1{
+    border-top: 3px solid white;
+    color: white;
+}
+
+@media only screen and (max-width: 1097px){
+    .psec2{
+        width: 80%;
+    }
+    .power{
+        padding: 7% 10%;
+    }
+ }
+
+ @media only screen and (max-width: 943px){
+    .sec2hd{
+        font-size: 1rem;
+    }
+    .sec2dt{
+        font-size: .8rem;
+    }
+    .pwrhd{
+        font-size: 1.3rem;
+        width: 55%;
+        padding-right: 10%;
+    }
+    .pwrinfo{
+        font-size: .9rem;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .psec2{
+        width: 90%;
+    }
+    .pwrsecinfo{
+        width: 45%;
+    }
+    .pwrhd{
+        font-size: 1.3rem;
+        width: 30%;
+        padding-right: 10%;
+    }
+    .pwrinfo{
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 568px){
+    .sec2hd{
+        font-size: .9rem;
+    }
+    .sec2dt{
+        font-size: .8rem;
+    }
+    .pwrhd{
+        font-size: 1.2rem;
+    }
+    .pwrinfo{
+        font-size: .8rem;
+    }
+  }
+  @media only screen and (max-width: 568px){
+    .sec2hd{
+        font-size: .9rem;
+    }
+    .sec2dt{
+        font-size: .7rem;
+    }
+    .pwrhd{
+        font-size: 1.2rem;
+    }
+    .pwrinfo{
+        font-size: .7rem;
+    }
+  }
+  @media only screen and (max-width: 468px){
+    .power{
+        padding: 7%;
+    }
+  }
+  @media only screen and (max-width: 376px){
+    .pwrhd{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .pwrfrst{
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: .3rem;
+        height: 10rem;
+        padding-bottom: 10%;
+    }
+  }

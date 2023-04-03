@@ -1,0 +1,85 @@
+.join{
+    background-color: black;
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jnbtn{
+    border: 2px solid white;
+    padding: .5% 5%;
+    margin-bottom: 10%;
+}
+.jnbtn:hover{
+    border: 2px solid white;
+    padding: .5% 5%;
+    margin-bottom: 10%;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+.jnhd{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 3%;
+    color: white;
+}
+.jnpic{
+    width: 80%;
+    border-radius: 20px;
+    padding-bottom: 5%;
+}
+@media only screen and (max-width: 1197px){
+    .join{
+        height: 65rem;
+    }
+ }
+ @media only screen and (max-width: 1097px){
+    .join{
+        height: 58rem;
+    }
+ }
+ @media only screen and (max-width: 943px){
+    .jnbtn{
+        font-size: .9rem;
+    }
+    .jnhd{
+        font-size: 1.3rem;
+    }
+    .join{
+        height: 50rem;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .join{
+        height: 43rem;
+    }
+  }
+  @media only screen and (max-width: 568px){
+    .join{
+        height: 32rem;
+    }
+    .jnbtn{
+        font-size: .8rem;
+    }
+    .jnhd{
+        font-size: 1.2rem;
+    }
+  }
+  @media only screen and (max-width: 568px){
+    .join{
+        height: 30rem;
+    }
+    .jnbtn{
+        font-size: .7rem;
+    }
+    .jnhd{
+        font-size: 1.1rem;
+    }
+  }
+  @media only screen and (max-width: 376px){
+    .join{
+        height: 28rem;
+    }
+  }
