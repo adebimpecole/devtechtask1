@@ -2,7 +2,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 10% 10% 2% 10%;
     justify-content: center;
 }
 .pwrfrst{
@@ -88,6 +88,9 @@
     .pwrinfo{
         font-size: .9rem;
     }
+    .fynimg{
+        border-radius: 20px;
+    }
   }
   @media only screen and (max-width: 768px){
     .psec2{
@@ -118,19 +121,8 @@
     .pwrinfo{
         font-size: .8rem;
     }
-  }
-  @media only screen and (max-width: 568px){
-    .sec2hd{
-        font-size: .9rem;
-    }
-    .sec2dt{
-        font-size: .7rem;
-    }
-    .pwrhd{
-        font-size: 1.2rem;
-    }
-    .pwrinfo{
-        font-size: .7rem;
+    .fynimg{
+        border-radius: 10px;
     }
   }
   @media only screen and (max-width: 468px){
@@ -141,13 +133,30 @@
   @media only screen and (max-width: 376px){
     .pwrhd{
         font-size: 1.1rem;
+    }
+    .pwrhd, .pwrinfo{
+        display: flex;
+        justify-content: center;
         width: 100%;
+    }
+    .pwrinfo{
+        font-size: .7rem;
+        text-align: center;
+    }
+    .sec2dt{
+        font-size: .7rem;
+    }
+    .sec2hd{
+        font-size: .8rem;
     }
     .pwrfrst{
         flex-direction: column;
         justify-content: flex-start;
         gap: .3rem;
-        height: 10rem;
-        padding-bottom: 10%;
+        height: 9.5rem;
+        padding-bottom: 0%;
+    }
+    .psec2{
+        width: 100%;
     }
   }

@@ -9,11 +9,10 @@ const Navbar = () => {
             <img className='logo' alt='logo' src={logo}/>
         </div>
         <div className='rgtnav'>
-            <span className='rgtcnt dis'>HOW IT WORKS</span>
-            <span className='rgtcnt'>ABOUT</span>
-            <span className='rgtcnt dis'>FAQs</span>
+            <span className='rgtcnt'>ABOUT US</span>
+            <span className='rgtcnt dis'>SERVICES</span>
             <span className='rgtcnt'>ENROLL</span>
-            <span className='rgtcnt'>CONTACT</span>
+            <span className='rgtcnt'>CONTACT US</span>
         </div>
     </div>
   )

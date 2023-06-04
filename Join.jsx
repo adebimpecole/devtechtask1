@@ -1,14 +1,14 @@
 import React from 'react'
 import Footer from './Footer'
 import "./Join.css"
-import team from "./assets/team.jpeg"
 
 const Join = () => {
   return (
     <div className='join'>
-        <img className='jnpic' src={team} alt="team"/>
+        <div className='jnpic'></div>
         <span className='jnhd'>Join Us.</span>
-        <span className='jnbtn'>See Jobs</span>
+        <span className='jndiv'></span>
+        <span className='jnbtn'>Enroll Now</span>
         <Footer/>
     </div>
   )

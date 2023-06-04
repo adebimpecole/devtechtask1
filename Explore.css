@@ -1,10 +1,12 @@
 .explore{
     height: 65rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(233 237 240);
+    background-image: url("./assets/finesky.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px -90px 50px -41px rgba(0, 0, 0, 0.933) inset;
+    -webkit-box-shadow: 0px -90px 50px -41px rgba(0,0,0, 0.933) inset;
+    -moz-box-shadow: 0px -90px 50px -41px rgba(0,0,0, 0.933) inset;
 }
 .exhd{
     font-size: 2rem;
@@ -19,17 +21,23 @@
     padding: .5% 5%;
     margin-top: 5%;
     font-weight: 500;
+    cursor: pointer;
 }
 .exbtn:hover{
     color: white;
     background-color: black;
 }
 .pic{
-    background-image: url("./assets/pwr.webp");
+    box-shadow: 0px 40px 50px -41px rgb(227 232 238 0.933) inset;
+    -webkit-box-shadow: 0px 40px 50px -41px rgb(227 232 238 0.933) inset;
+    -moz-box-shadow: 0px 40px 50px -41px rgb(227 232 238 0.933) inset;
     height: 50rem;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
 }
 
 @media only screen and (max-width: 1097px){
@@ -64,6 +72,7 @@
     }
     .exinfo{
         font-size: .8rem;
+        width: 80%;
     }
     .exbtn{
         font-size: .8rem;
@@ -72,17 +81,17 @@
         height: 20rem;
     }
     .explore{
-        height: 30rem;
+        height: 35rem;
     }
   }
   @media only screen and (max-width: 376px){
     .exinfo{
-        width: 80%;
+        font-size: .7rem;
     }
     .pic{
         height: 13rem;
     }
     .explore{
-        height: 25rem;
+        height: 33rem;
     }
   }

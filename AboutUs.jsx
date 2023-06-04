@@ -1,29 +1,29 @@
 import React from 'react'
 import "./About.css"
 import Navbar from './Navbar'
-import { AiOutlineAim } from "react-icons/ai";
-import { BsGlobe2, BsPeople } from "react-icons/bs";
+import sample from "./assets/vid.mp4"
 
 const AboutUs = () => {
   return (
     <div className='about'>
         <Navbar/>
+        <video className='videoTag' autoPlay loop muted>
+            <source src={sample} type='video/mp4' />
+        </video>
         <span className='abouthd'>About Us</span>
         <span className='aboutinfo'>
-            Taking action is the first step in any learning experience you require or desire, which is why Coursenetic is here. The flexible program includes courses, all offered for free on our e-learning platform, that you can move through in 6-weeks, as well as support to help you complete them.
+            Blue Devtech Solutions LLC is the parent company of Coursenetic, Flexi Remote and Dammy's Tech which are technology companies, our core aim and objective is to use theknowledge of modern technology to develop different softwares and apps. We also want to impact knowledge of different skills in several fields into the youths across the Globe. We also offer different tech services like Web development, app development, Blockchain Development etc.
         </span>
         <span className='aboutdets'>
             <span className='detssec'>
-                <BsPeople className='icon'/>
-                <span className='subhd'>Employees</span>
+                <span className='subceo'>Founder & CEO</span>
+                <span className='subhd'>Sulaymaan O. Abubakr</span>
             </span>
-            <span className='detssec'>
-                <BsGlobe2 className='icon'/>
-                <span className='subhd'>One Mission</span>
-            </span>
-            <span className='detssec'>
-                <AiOutlineAim className='icon'/>
-                <span className='subhd'>One Vision</span>
+            <span className='detssec odrr'>
+                <span className='subceo'>Quotes</span>
+                <span className='subhd2'>
+                  <span>"Be informed and stay active, your tech passion lives in you"</span>
+                  <span>" Learn Hard, work easy, that's the discipline"</span></span>
             </span>
         </span>
     </div>

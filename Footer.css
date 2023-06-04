@@ -11,7 +11,7 @@
 }
 @media only screen and (max-width: 943px){
     .nm{
-        font-size: .9rem;
+        font-size: .8rem;
     }
   }
   @media only screen and (max-width: 568px){
@@ -24,7 +24,7 @@
         font-size: .6rem;
     }
     .foot{
-        padding-left: 10%;
+        padding-left: 7%;
         flex-direction: column;
         height: 6rem;
         align-items: flex-start;
